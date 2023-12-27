@@ -66,7 +66,7 @@ function App() {
             texto = {todo.texto}
             completed = {todo.completed}
             onComplete= {()=>completeTodo(todo.texto)}
-            onDelete={()=> deleteTodo(todo.text)}
+            onDelete={()=> deleteTodo(todo.texto)}
           />
         )
         )}
